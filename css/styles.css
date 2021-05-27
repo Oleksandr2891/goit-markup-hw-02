@@ -1,0 +1,111 @@
+/*Цвет текста  для Студио #000000 */
+/*Цвет текста  для заголовков #212121 */
+/*Цвет текста  для хиро и футера #FFFFFF*/
+/*Цвет текста  основной #757575 */
+/*Цвет текста  акцент #2196F3 */
+/*Цвет текста  адрес футера rgba(255, 255, 255, 0.6) */
+/*Цвет для фона Особенности и чем мы занимаемся  #E5E5E5 */
+/*Цвет для фона для хиро #2F303A */
+/*Цвет для фона для шапки #FFFFFF */
+/*Цвет для фона наша команда #FFFFFF */
+/*Цвет для фона для футера #2F303A */
+/*Цвет для фона вторая страница #E5E5E5 */
+/*Цвет для фона для кнопок стр #F5F4FA */
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-title: #212121;
+  --color-text: #757575;
+  --color-blue: #2196f3;
+  --color-f-address: rgba(255, 255, 255, 0.6);
+  --color-back-hf: #2f303a;
+  --color-features: #e5e5e5;
+  --color-bg-filter: #f5f4fa;
+}
+
+body {
+  color: var(--color-text);
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .logo {
+  color: var(--color-black);
+}
+
+.site-nav .link {
+  color: var(--color-title);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-blue);
+}
+
+.address .site-address {
+  color: var(--color-text);
+}
+
+.address .site-address:hover,
+.address .site-address:focus {
+  color: var(--color-blue);
+}
+
+.hero {
+  background-color: var(--color-back-hf);
+}
+
+.section .title-hero {
+  color: var(--color-white);
+}
+
+.button-hero {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  cursor: pointer;
+}
+
+.button-filter {
+  color: var(--color-title);
+  background-color: var(--color-bg-filter);
+  cursor: pointer;
+}
+
+.features {
+  background-color: var(--color-white);
+}
+
+.teams {
+  background-color: var(--color-features);
+}
+
+.portfolio {
+  background-color: var(--color-white);
+}
+
+.section .section-title {
+  color: var(--color-title);
+}
+
+.footer {
+  background-color: var(--color-back-hf);
+}
+
+.footer .footer-logo {
+  color: var(--color-white);
+}
+
+.footer-address,
+.footer-address > a {
+  color: var(--color-f-address);
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-address > a:hover,
+.footer-address > a:focus {
+  color: var(--color-blue);
+}
