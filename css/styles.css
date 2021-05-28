@@ -44,6 +44,7 @@ body {
   color: var(--color-black);
   font-family: Raleway, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -58,6 +59,7 @@ body {
 
 .site-nav .link {
   color: var(--color-title);
+  font-weight: 500;
   letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.14;
@@ -65,8 +67,7 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .link:active {
+.site-nav .link:focus {
   color: var(--color-blue);
   letter-spacing: 0.02em;
   font-size: 14px;
@@ -74,8 +75,13 @@ body {
   text-decoration: none;
 }
 
+.site-nav a.link.active {
+  color: var(--color-blue);
+}
+
 .address .site-address {
   color: var(--color-text);
+  font-weight: 500;
   font-size: 14px;
   font-size: 14px;
   line-height: 1.14;
@@ -112,6 +118,7 @@ button.button-hero {
   background-color: var(--color-blue);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -225,6 +232,7 @@ button.button-filter:focus {
   color: var(--color-white);
   font-family: Raleway, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
