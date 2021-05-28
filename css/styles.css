@@ -61,7 +61,8 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:active {
   color: var(--color-blue);
   letter-spacing: 0.02em;
   font-size: 14px;
@@ -111,7 +112,15 @@ button.button-hero {
   letter-spacing: 0.06em;
 }
 
-.hero button:hover .hero button:focus {
+.hero button:hover,
+.hero button:focus {
+  color: var(--color-blue);
+  background-color: var(--color-white);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.hero button:active {
   color: var(--color-blue);
   background-color: var(--color-white);
   cursor: pointer;
@@ -129,7 +138,8 @@ button.button-filter {
   text-align: center;
 }
 
-button.button-filter:hover button.button-filter:focus {
+button.button-filter:hover,
+button.button-filter:focus {
   color: var(--color-white);
   background-color: var(--color-blue);
   cursor: pointer;
@@ -141,6 +151,7 @@ button.button-filter:hover button.button-filter:focus {
 }
 
 .features h3 {
+  color: var(--color-title);
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
@@ -164,6 +175,7 @@ button.button-filter:hover button.button-filter:focus {
 }
 
 .teams h3 {
+  color: var(--color-title);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -171,6 +183,7 @@ button.button-filter:hover button.button-filter:focus {
 }
 
 .filter h3 {
+  color: var(--color-title);
   font-size: 18px;
   line-height: 2;
   text-align: left;
