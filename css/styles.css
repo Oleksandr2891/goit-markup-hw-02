@@ -25,7 +25,7 @@
   --color-features: #e5e5e5;
   --color-bg-filter: #f5f4fa;
 }
-
+/*Общее применение стилей*/
 body {
   background-color: var(--color-white);
   color: var(--color-text);
@@ -37,6 +37,8 @@ body {
 .list {
   list-style: none;
 }
+
+/*Лого в шапке*/
 
 .site-nav .logo {
   color: var(--color-black);
@@ -51,6 +53,8 @@ body {
 .site-nav .logo > span {
   color: var(--color-blue);
 }
+
+/*навигация по сайту и адрес */
 
 .site-nav .link {
   color: var(--color-title);
@@ -86,6 +90,8 @@ body {
   line-height: 1.14;
   text-decoration: none;
 }
+
+/*Секция хиро*/
 
 .hero {
   background-color: var(--color-back-hf);
@@ -127,6 +133,8 @@ button.button-hero {
   font-family: inherit;
 }
 
+/*Фильтр для второй страницы*/
+
 button.button-filter {
   color: var(--color-title);
   background-color: var(--color-bg-filter);
@@ -150,6 +158,21 @@ button.button-filter:focus {
   text-align: center;
 }
 
+.filter h3 {
+  color: var(--color-title);
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+
+.filter p {
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: left;
+}
+/*Секция особенности*/
+
 .features h3 {
   color: var(--color-title);
   font-size: 14px;
@@ -163,8 +186,10 @@ button.button-filter:focus {
   text-align: left;
 }
 
-.teams h3 {
-  background-color: var(--color-features);
+/* Секция команда*/
+
+.teams {
+  background-color: var(--color-bg-filter);
 }
 
 .section h2 {
@@ -182,29 +207,19 @@ button.button-filter:focus {
   text-align: center;
 }
 
-.filter h3 {
-  color: var(--color-title);
-  font-size: 18px;
-  line-height: 2;
-  text-align: left;
-  letter-spacing: 0.06em;
-}
-
-.filter p {
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: left;
-}
-
 .teams p {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
+/*Подвал*/
+
 .footer {
   background-color: var(--color-back-hf);
 }
+
+/*Лого подвала*/
 
 .footer .footer-logo {
   color: var(--color-white);
@@ -214,6 +229,8 @@ button.button-filter:focus {
   line-height: 1.2;
   text-decoration: none;
 }
+
+/*Адрес подвала*/
 
 .footer .footer-logo > span {
   color: var(--color-blue);
